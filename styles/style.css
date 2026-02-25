@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: coral;
+}
+
+.soeger{
+    background-color: mediumblue;
+    color: wheat;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.soeger:hover {
+    background-color: mediumblue;
+    transform: scale(1.05);
+}
+
+.tilbyder{
+    background-color: forestgreen;
+    color: wheat;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.tilbyder:hover {
+    background-color: forestgreen;
+    transform: scale(1.05);
+}
+
+.container {
+    text-align: center;
+}
+select {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 2px solid wheat;
+    background-color: forestgreen;
+    color: wheat;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+select:focus {
+    outline: none;
+    box-shadow:  0 0 10px black;
+    border-color: forestgreen;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
