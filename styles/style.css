@@ -1,6 +1,25 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: coral;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
 }
 
 .soeger{
@@ -12,6 +31,26 @@ body {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s, transform 0.2s;
+}
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"] {
+    padding: 10px ;
+    border-radius: 8px;
+    border: 2px solid wheat;
+    font-size: 16px;
+    width: 100%;
+    max-width: 220px;
+}
+input.soeger {
+    background-color: mediumblue;
+    color:wheat;
+
+}
+input.tilbyder {
+    background-color: forestgreen;
+    color: wheat;
+
 }
 .soeger:hover {
     background-color: mediumblue;

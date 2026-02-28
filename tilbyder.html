@@ -2,6 +2,7 @@
 <html lang="da">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeg TILBYDER kørelejlighed</title>
     <link rel="stylesheet" href="styles/style.css"/>
 </head>
@@ -35,14 +36,18 @@
 
     <br/> <br/>
 
-    <label for="dato">Vælg dato:</label>
+    <!--<label for="dato">Vælg dato:</label>
     <input type="date" id="dato" name="dato" class="tilbyder">
 
-    <br/> <br/>
-
     <label for="tid">Vælg tid:</label>
-    <input type="time" id="tid" name="tid" class="tilbyder">
+    <input type="time" id="tid" name="tid" class="tilbyder"> -->
+    <label for="tidspunkt">Dato og tid:</label>
+    <input type="datetime-local" id="tidspunkt" name="tidspunkt" class="tilbyder">
 
+    </br></br></br>
+
+    <a href="tilbyder_validering.html">
+        <button type="button" class="tilbyder">Bekræft</button>
     <br/> <br/> <br/>
 
     <a href="index.html">
