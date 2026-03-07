@@ -40,14 +40,24 @@
     <input type="datetime-local" id="tidspunkt" name="tidspunkt" class="tilbyder" required>
 
     </br></br></br>
-
-    <button type="button" id="bekraet-knap" class="tilbyder">Bekræft</button>
+    <p id="fejl-tekst"></p>
+    <button type="button" id="bekraeft-knap" class="tilbyder">Bekræft</button>
 
     <br/> <br/> <br/>
 
     <a href="index.html">
         <button type="button" class="tilbyder">Tilbage til forsiden</button>
     </a>
+    <div id="bekraeft-modal" class="modal">
+        <div class="modal-indhold">
+            <span class="luk-kryds">&times;</span>
+            <h2>Tjek din kørelejlighed</h2>
+            <hr>
+            <div id="modal-data"></div>
+            <br>
+            <button type="button" id="modal-ok-knap" class="tilbyder">Det ser rigtigt ud</button>
+        </div>
+    </div>
 
 </div>
 <script src="styles/divscripts.js"></script>
